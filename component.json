@@ -1,0 +1,11 @@
+{
+    "name": "github.com/liuggio/hello-component",
+    "route": "/hello",
+    "license": "MIT",
+    "description": "It says hello",
+    "protocol": "golang/http/handler",
+    "require": {
+        "github.com/liuggio/morning-component": "1.1.*",
+        "github.com/liuggio/evening-component": "2.*"
+    }
+}
