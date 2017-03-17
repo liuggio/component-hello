@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 	"time"
-	// morning "morning-component"
-	// evening "evening-component"
+	morning "github.com/liuggio/morning-component"
+	evening "github.com/liuggio/evening-component"
 )
 
 func hello(w http.ResponseWriter, req *http.Request) {

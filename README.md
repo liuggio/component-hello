@@ -16,7 +16,7 @@ package main
 
 import (
     "fmt"
-    "liuggio/hello"
+    hello "github.com/liuggio/hello-component"
 )
 
 func main() {
@@ -30,7 +30,7 @@ and finally run your script "go run my_script.go"
 
 Component is a tool that helps you to handle and create web modules.
 
-Is like a RPC but the good one with RESTFul apis.
+Is like a RPC but a good one with RESTFul apis.
 
 Is like serverless but with no lockin with the infrastructure.
 
